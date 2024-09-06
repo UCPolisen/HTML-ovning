@@ -5,3 +5,19 @@ h1, h2, h3{
     font-family: 'Times New Roman', Times, serif;
 }
 
+img{
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+    width: 100%;
+    max-width: 500px;
+}
+
+.grid-container{
+    display: grid;
+}
+
+.grid-item{
+    margin: 1em;
+    background-color: grey;
+}
