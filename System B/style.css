@@ -11,6 +11,11 @@ img{
     margin-right: auto;
     width: 100%;
     max-width: 500px;
+    transition: 0.1s ease-in, 0.03s ease-out;
+}
+
+img:hover{
+    transform: scale(1.07);
 }
 
 .grid-container{
