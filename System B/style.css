@@ -1,4 +1,4 @@
-h1, h2, h3{
+h1{
     color: black;
     text-align: center;
     font-size: 30px;
@@ -58,4 +58,10 @@ img:hover{
 .item6{
     grid-row: 3;
     grid-column: 2;
+}
+
+@media (max-width: 1000px) { /* Justera max-width enligt dina behov */
+    .grid-container {
+        grid-template-columns: 1fr 1fr; /* Två kolumner som tar upp 50% av tillgängligt utrymme */
+    }
 }
