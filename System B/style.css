@@ -1,11 +1,11 @@
 h1{
     color: black;
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
 }
 
-img{
+.hoverbild{
     display: block;
     margin-left: auto; 
     margin-right: auto;
@@ -14,7 +14,7 @@ img{
     transition: 0.1s ease-in, 0.03s ease-out;
 }
 
-img:hover{
+.hoverbild:hover{
     transform: scale(1.07);
 }
 
@@ -65,3 +65,10 @@ img:hover{
         grid-template-columns: 1fr 1fr; /* Två kolumner som tar upp 50% av tillgängligt utrymme */
     }
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
