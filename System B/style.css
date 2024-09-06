@@ -15,11 +15,14 @@ img{
 
 .grid-container{
     display: grid;
+    grid-template-columns: 500px 500px;
+    gap: 10px 10px;
+    justify-content: center;
 }
 
 .grid-item{
-    margin: 1em;
-    background-color: grey;
+  padding: 20px;
+  font-size: 20px;
 }
 
 .item1{
